@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837F429F1C2302920001AE24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F429E1C2302920001AE24 /* AppDelegate.swift */; };
+		837F42A11C2302920001AE24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F42A01C2302920001AE24 /* ViewController.swift */; };
+		837F42A41C2302920001AE24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837F42A21C2302920001AE24 /* Main.storyboard */; };
+		837F42A61C2302920001AE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837F42A51C2302920001AE24 /* Assets.xcassets */; };
+		837F42A91C2302920001AE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837F42A71C2302920001AE24 /* LaunchScreen.storyboard */; };
+		837F42B41C2302920001AE24 /* StupidIOSApp3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F42B31C2302920001AE24 /* StupidIOSApp3Tests.swift */; };
+		837F42BF1C2302920001AE24 /* StupidIOSApp3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F42BE1C2302920001AE24 /* StupidIOSApp3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837F42B01C2302920001AE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837F42931C2302920001AE24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837F429A1C2302920001AE24;
+			remoteInfo = StupidIOSApp3;
+		};
+		837F42BB1C2302920001AE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837F42931C2302920001AE24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837F429A1C2302920001AE24;
+			remoteInfo = StupidIOSApp3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		837F429B1C2302920001AE24 /* StupidIOSApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidIOSApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837F429E1C2302920001AE24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		837F42A01C2302920001AE24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		837F42A31C2302920001AE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		837F42A51C2302920001AE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		837F42A81C2302920001AE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		837F42AA1C2302920001AE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837F42AF1C2302920001AE24 /* StupidIOSApp3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StupidIOSApp3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837F42B31C2302920001AE24 /* StupidIOSApp3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidIOSApp3Tests.swift; sourceTree = "<group>"; };
+		837F42B51C2302920001AE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837F42BA1C2302920001AE24 /* StupidIOSApp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StupidIOSApp3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837F42BE1C2302920001AE24 /* StupidIOSApp3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidIOSApp3UITests.swift; sourceTree = "<group>"; };
+		837F42C01C2302920001AE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837F42981C2302920001AE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837F42AC1C2302920001AE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837F42B71C2302920001AE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		837F42921C2302920001AE24 = {
+			isa = PBXGroup;
+			children = (
+				837F429D1C2302920001AE24 /* StupidIOSApp3 */,
+				837F42B21C2302920001AE24 /* StupidIOSApp3Tests */,
+				837F42BD1C2302920001AE24 /* StupidIOSApp3UITests */,
+				837F429C1C2302920001AE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837F429C1C2302920001AE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837F429B1C2302920001AE24 /* StupidIOSApp3.app */,
+				837F42AF1C2302920001AE24 /* StupidIOSApp3Tests.xctest */,
+				837F42BA1C2302920001AE24 /* StupidIOSApp3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837F429D1C2302920001AE24 /* StupidIOSApp3 */ = {
+			isa = PBXGroup;
+			children = (
+				837F429E1C2302920001AE24 /* AppDelegate.swift */,
+				837F42A01C2302920001AE24 /* ViewController.swift */,
+				837F42A21C2302920001AE24 /* Main.storyboard */,
+				837F42A51C2302920001AE24 /* Assets.xcassets */,
+				837F42A71C2302920001AE24 /* LaunchScreen.storyboard */,
+				837F42AA1C2302920001AE24 /* Info.plist */,
+			);
+			path = StupidIOSApp3;
+			sourceTree = "<group>";
+		};
+		837F42B21C2302920001AE24 /* StupidIOSApp3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				837F42B31C2302920001AE24 /* StupidIOSApp3Tests.swift */,
+				837F42B51C2302920001AE24 /* Info.plist */,
+			);
+			path = StupidIOSApp3Tests;
+			sourceTree = "<group>";
+		};
+		837F42BD1C2302920001AE24 /* StupidIOSApp3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				837F42BE1C2302920001AE24 /* StupidIOSApp3UITests.swift */,
+				837F42C01C2302920001AE24 /* Info.plist */,
+			);
+			path = StupidIOSApp3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		837F429A1C2302920001AE24 /* StupidIOSApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837F42C31C2302920001AE24 /* Build configuration list for PBXNativeTarget "StupidIOSApp3" */;
+			buildPhases = (
+				837F42971C2302920001AE24 /* Sources */,
+				837F42981C2302920001AE24 /* Frameworks */,
+				837F42991C2302920001AE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StupidIOSApp3;
+			productName = StupidIOSApp3;
+			productReference = 837F429B1C2302920001AE24 /* StupidIOSApp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		837F42AE1C2302920001AE24 /* StupidIOSApp3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837F42C61C2302920001AE24 /* Build configuration list for PBXNativeTarget "StupidIOSApp3Tests" */;
+			buildPhases = (
+				837F42AB1C2302920001AE24 /* Sources */,
+				837F42AC1C2302920001AE24 /* Frameworks */,
+				837F42AD1C2302920001AE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837F42B11C2302920001AE24 /* PBXTargetDependency */,
+			);
+			name = StupidIOSApp3Tests;
+			productName = StupidIOSApp3Tests;
+			productReference = 837F42AF1C2302920001AE24 /* StupidIOSApp3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		837F42B91C2302920001AE24 /* StupidIOSApp3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837F42C91C2302920001AE24 /* Build configuration list for PBXNativeTarget "StupidIOSApp3UITests" */;
+			buildPhases = (
+				837F42B61C2302920001AE24 /* Sources */,
+				837F42B71C2302920001AE24 /* Frameworks */,
+				837F42B81C2302920001AE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837F42BC1C2302920001AE24 /* PBXTargetDependency */,
+			);
+			name = StupidIOSApp3UITests;
+			productName = StupidIOSApp3UITests;
+			productReference = 837F42BA1C2302920001AE24 /* StupidIOSApp3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837F42931C2302920001AE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Burnett, Jordan";
+				TargetAttributes = {
+					837F429A1C2302920001AE24 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					837F42AE1C2302920001AE24 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 837F429A1C2302920001AE24;
+					};
+					837F42B91C2302920001AE24 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 837F429A1C2302920001AE24;
+					};
+				};
+			};
+			buildConfigurationList = 837F42961C2302920001AE24 /* Build configuration list for PBXProject "StupidIOSApp3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 837F42921C2302920001AE24;
+			productRefGroup = 837F429C1C2302920001AE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				837F429A1C2302920001AE24 /* StupidIOSApp3 */,
+				837F42AE1C2302920001AE24 /* StupidIOSApp3Tests */,
+				837F42B91C2302920001AE24 /* StupidIOSApp3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837F42991C2302920001AE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837F42A91C2302920001AE24 /* LaunchScreen.storyboard in Resources */,
+				837F42A61C2302920001AE24 /* Assets.xcassets in Resources */,
+				837F42A41C2302920001AE24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837F42AD1C2302920001AE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837F42B81C2302920001AE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837F42971C2302920001AE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837F42A11C2302920001AE24 /* ViewController.swift in Sources */,
+				837F429F1C2302920001AE24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837F42AB1C2302920001AE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837F42B41C2302920001AE24 /* StupidIOSApp3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837F42B61C2302920001AE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837F42BF1C2302920001AE24 /* StupidIOSApp3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837F42B11C2302920001AE24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837F429A1C2302920001AE24 /* StupidIOSApp3 */;
+			targetProxy = 837F42B01C2302920001AE24 /* PBXContainerItemProxy */;
+		};
+		837F42BC1C2302920001AE24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837F429A1C2302920001AE24 /* StupidIOSApp3 */;
+			targetProxy = 837F42BB1C2302920001AE24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		837F42A21C2302920001AE24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837F42A31C2302920001AE24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		837F42A71C2302920001AE24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837F42A81C2302920001AE24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		837F42C11C2302920001AE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		837F42C21C2302920001AE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		837F42C41C2302920001AE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StupidIOSApp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.StupidIOSApp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		837F42C51C2302920001AE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StupidIOSApp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.StupidIOSApp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		837F42C71C2302920001AE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StupidIOSApp3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.StupidIOSApp3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidIOSApp3.app/StupidIOSApp3";
+			};
+			name = Debug;
+		};
+		837F42C81C2302920001AE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StupidIOSApp3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.StupidIOSApp3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidIOSApp3.app/StupidIOSApp3";
+			};
+			name = Release;
+		};
+		837F42CA1C2302920001AE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StupidIOSApp3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.StupidIOSApp3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StupidIOSApp3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		837F42CB1C2302920001AE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StupidIOSApp3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.StupidIOSApp3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StupidIOSApp3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837F42961C2302920001AE24 /* Build configuration list for PBXProject "StupidIOSApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837F42C11C2302920001AE24 /* Debug */,
+				837F42C21C2302920001AE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837F42C31C2302920001AE24 /* Build configuration list for PBXNativeTarget "StupidIOSApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837F42C41C2302920001AE24 /* Debug */,
+				837F42C51C2302920001AE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837F42C61C2302920001AE24 /* Build configuration list for PBXNativeTarget "StupidIOSApp3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837F42C71C2302920001AE24 /* Debug */,
+				837F42C81C2302920001AE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837F42C91C2302920001AE24 /* Build configuration list for PBXNativeTarget "StupidIOSApp3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837F42CA1C2302920001AE24 /* Debug */,
+				837F42CB1C2302920001AE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837F42931C2302920001AE24 /* Project object */;
+}
